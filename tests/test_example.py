@@ -10,7 +10,7 @@ class ExampleTestCase(unittest.TestCase):
     def test_home_route(self):
         """Test if the server is running."""
         response = self.client.get('/')
-        self.assertEqual(response.status_code, 404)  # Modify based on actual routes
+        self.assertEqual(response.status_code, 404)  
 
 if __name__ == "__main__":
     unittest.main()
