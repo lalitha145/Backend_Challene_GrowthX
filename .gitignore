@@ -1,0 +1,29 @@
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment directories
+venv/
+env/
+*.env
+
+# Flask instance folder
+instance/
+
+# MongoDB data
+data/
+
+# .env file with sensitive information
+.env
+
+# Log files
+*.log
+
+# IDE and editor directories
+.idea/
+.vscode/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
